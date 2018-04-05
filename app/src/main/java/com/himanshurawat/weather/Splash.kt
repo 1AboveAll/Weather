@@ -83,7 +83,7 @@ class Splash : AppCompatActivity() {
                             userPrefEditor.apply()
 
                             Handler().postDelayed({
-                                val intent = Intent(this,MainActivity::class.java)
+                                val intent = Intent(this, MainActivity::class.java)
                                 finish()
                                 startActivity(intent)
                             },2000)

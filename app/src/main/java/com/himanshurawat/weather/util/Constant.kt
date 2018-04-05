@@ -20,5 +20,9 @@ class Constant{
 
         //Location Request Code
         const val LOCATION_REQUEST_CODE:Int = 7
+
+
+        private const val API_KEY = "fc515061464572dc8effc3e7d9bb6b6c"
+        const val BASE_URL = "https://api.darksky.net/forecast/$API_KEY/"
     }
 }
